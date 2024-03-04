@@ -1,0 +1,44 @@
+body {
+    background-color: gray;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-size: 24px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+h1 {
+    margin: 30px;
+    font-size: 60px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-bottom: 20px; 
+    text-align: center;
+}
+
+#kuvauser, #kuvakone {
+    flex-grow: 1;
+}
+
+#kuvauser img, #kuvakone img {
+    width: 100%; 
+    height: auto; 
+}
+
+button {
+    width: 100px;
+    background-color:aliceblue;
+    cursor: pointer;
+    border: 2px solid #0f1011;
+    margin-top: 15px;
+}
+button:hover {
+    background-color:#0f1011; 
+    color: aliceblue 
+}
