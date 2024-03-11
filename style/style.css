@@ -69,19 +69,3 @@ button:hover {
         width: 100%;
     }
 }
-
-
-/* Tabletit */
-@media (min-width: 769px) and (max-width: 1400px) {
-    #kuvauser img, #kuvakone img {
-        max-width: 50%; 
-        height: auto;
-    }
-    #container {
-        flex-direction: column;
-        width: 100%;
-    }
-    button {
-        width: 100%;
-    }
-}
